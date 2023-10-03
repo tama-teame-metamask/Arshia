@@ -1,0 +1,45 @@
+body {
+  font-family: "Euclid Circular B", sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo-row {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-section {
+  height: 60vh;
+  width: 100%;
+  background-color: #24292E;
+}
+
+.metaLogo {
+  height: 140px;
+  overflow: visible;
+}
+
+svg {
+  overflow: visible;
+  width: 40%;
+  height: 40%;
+}
+
+.original-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 25px;
+  width: 240px;
+  height: 55px;
+  transition: 0.4s;
+  background-color: #037dd6;
+  margin: 25px 0;
+}
+.original-button:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=master.css.map */
