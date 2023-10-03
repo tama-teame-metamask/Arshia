@@ -1,29 +1,48 @@
+:root {
+  --text-color-dark-mood: #fff;
+  --bg-color-dark-mood: #121212;
+  --shadow-dark: 0 0 15px rgba(255, 255, 255, 0.2);
+  --text-color-mood: #222222;
+  --bg-color-mood: #fff;
+  --shadow-: 0 0 15px rgba(0, 0, 0, 0.2);
+  --hover-color: #037dd6;
+  --arshia: #24292E;
+  --arshia2: #F7F9FB;
+}
+
 body {
   font-family: "Euclid Circular B", sans-serif;
-  height: 100vh;
+}
+
+.Tdark {
+  --text-color-mood: var(--text-color-dark-mood);
+  --bg-color-mood: var(--bg-color-dark-mood);
+  --shadow-: var(--shadow-dark);
+  --hover-color: var(--text-color-dark-mood);
+}
+
+.main {
   width: 100%;
 }
 
-.logo-row {
-  width: 100%;
-  height: 100%;
+.section1 {
+  background-color: var(--arshia);
 }
 
-.logo-section {
-  height: 60vh;
-  width: 100%;
-  background-color: #24292E;
+.section2 {
+  background-color: var(--arshia2);
+  padding: 0 250px;
 }
 
-.metaLogo {
-  height: 140px;
-  overflow: visible;
+.section3 {
+  background-color: var(--arshia);
+  padding: 0 250px;
 }
 
 svg {
   overflow: visible;
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
 }
 
 .original-button {
@@ -42,4 +61,19 @@ svg {
 }
 .original-button:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section3 {
+    padding: 0 5px;
+  }
+}
+.sec3btn:hover {
+  color: var(--hover-color) !important;
+  opacity: 0.8;
 }/*# sourceMappingURL=master.css.map */
