@@ -8,6 +8,7 @@
   --hover-color: #037dd6;
   --arshia: #24292E;
   --arshia2: #F7F9FB;
+  --arshia3: #6A737D;
 }
 
 body {
@@ -39,6 +40,14 @@ body {
   padding: 0 250px;
 }
 
+.section4 {
+  background-color: var(--arshia3);
+}
+
+.section5 {
+  background-color: var(--bg-color-mood);
+}
+
 svg {
   overflow: visible;
   width: 50%;
@@ -63,6 +72,24 @@ svg {
   opacity: 0.7;
 }
 
+.original-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 25px;
+  width: 100px;
+  height: 55px;
+  transition: 0.4s;
+  background-color: #037dd6;
+  margin: 25px 0;
+}
+.original-button2:hover {
+  opacity: 0.7;
+}
+
 @media screen and (max-width: 768px) {
   .section2 {
     padding: 0 20px;
@@ -76,4 +103,22 @@ svg {
 .sec3btn:hover {
   color: var(--hover-color) !important;
   opacity: 0.8;
+}
+
+.Shbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  transition: 0.6s;
+}
+.Shbutton:hover {
+  border: 1px solid #037dd6;
+  color: #037dd6;
 }/*# sourceMappingURL=master.css.map */
