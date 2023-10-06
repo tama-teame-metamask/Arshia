@@ -122,4 +122,35 @@ svg {
 .Shbutton:hover {
   border: 1px solid #037dd6;
   color: #037dd6;
+}
+
+h6 {
+  color: rgb(246, 133, 27);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(233, 235, 238);
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.footer-link {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 12px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.footer-link:hover {
+  color: #037dd6;
+  opacity: 0.8;
 }/*# sourceMappingURL=master.css.map */
