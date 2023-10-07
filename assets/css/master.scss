@@ -1,5 +1,5 @@
 :root {
-    --text-color-dark-mood: #fff;
+    --text-color-dark-mood: #ffffff;
     --bg-color-dark-mood: #121212;
     --shadow-dark: 0 0 15px rgba(255, 255, 255, 0.2);
     --text-color-mood: #222222;
@@ -11,10 +11,6 @@
     --arshia3: #6A737D;
 }
 
-body {
-    font-family: 'Euclid Circular B', sans-serif;
-    overflow-x: hidden;
-}
 
 .Tdark {
     --text-color-mood: var(--text-color-dark-mood);
@@ -23,6 +19,10 @@ body {
     --hover-color: var(--text-color-dark-mood);
 }
 
+body {
+    font-family: 'Euclid Circular B', sans-serif;
+    overflow-x: hidden;
+}
 .main {
     width: 100%;
 }
@@ -52,6 +52,7 @@ body {
 
 .section5 {
     background-color: var(--bg-color-mood);
+    color: --text-color-mood;
 }
 
 svg {
@@ -156,8 +157,9 @@ img {
     margin-bottom: 20px;
 }
 
-footer {
+.footer {
     background-color: rgb(233, 235, 238);
+    padding: 0 250px;
 }
 
 .footer-link {
@@ -180,6 +182,7 @@ footer {
 .matn{
     font-weight: 600;
 }
+
 // :root{
 //     --text-color-dark-mood: #fff ;
 //     --bg-color-dark-mood: #121212 ;
