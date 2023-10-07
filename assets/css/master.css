@@ -27,6 +27,10 @@ body {
   width: 100%;
 }
 
+.section0 {
+  padding: 0 150px;
+}
+
 .section1 {
   background-color: var(--arshia);
 }
@@ -92,6 +96,11 @@ svg {
 }
 
 @media screen and (max-width: 768px) {
+  .section0 {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
   .section2 {
     padding: 0 20px;
   }
@@ -126,7 +135,6 @@ svg {
 
 h6 {
   color: rgb(246, 133, 27);
-  font-weight: bold;
 }
 
 a {
@@ -140,7 +148,6 @@ img {
 
 footer {
   background-color: rgb(233, 235, 238);
-  font-weight: bold;
 }
 
 .footer-link {
@@ -152,4 +159,14 @@ footer {
 .footer-link:hover {
   color: #037dd6;
   opacity: 0.8;
+}
+
+.chrom {
+  width: 20%;
+  transform: translateY(8px);
+  margin-left: 5px;
+}
+
+.matn {
+  font-weight: 600;
 }/*# sourceMappingURL=master.css.map */
